@@ -319,6 +319,7 @@ body ul {
   width: 100%;
   padding: 20px;
   background: white;
+  height: 100%;
   transition: all 0.5s cubic-bezier(0.37, -0.22, 1, 1);
 }
 .blog-wrapp .blog-row .blog-col1 .blog-col2 .blog-img {
