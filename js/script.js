@@ -8,3 +8,6 @@ var swiper = new Swiper(".banner-swiper", {
       disableOnInteraction: false,
     },
 });
+
+
+  AOS.init({once: true,});
