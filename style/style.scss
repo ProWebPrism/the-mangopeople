@@ -375,7 +375,7 @@ body {
 
             .blog-col2 {
                 width: 100%;
-                padding: 20px;
+                padding: 20px 20px 65px;
                 background: #ffff;
                 height: 100%;
                 transition: all 0.5s cubic-bezier(0.37, -0.22, 1, 1);
@@ -430,6 +430,9 @@ body {
                         border: 1px solid;
                         border-radius: 0;
                         transition: all 0.25s ease-in-out;
+                        position: absolute;
+                        left: 20px;
+                        bottom: 20px;
 
                         &:hover {
                             background: none;
@@ -908,7 +911,7 @@ body {
             width: 48%;
             .contact-page-right-content{
                 color: #fff;
-                padding: 40px;
+                padding: 50px;
                 background: linear-gradient(to left, #ecc02c 0%, #e3741c 50%, #db4c14 120%);
                 h2{
                     font-size: 30px;
@@ -918,6 +921,82 @@ body {
                 p{
                     padding-bottom: 20px;
                     border-bottom: 1px solid #fff;
+                }
+
+                .contact-form {
+                    width: 100%;
+                    margin: 25px 0 0;
+                    
+                    .text-fields {
+                        width: 100%;
+
+                        .text-field {
+                            width: 100%;
+                            margin: 0 0 4.2%;
+                            input {
+                                background-color: transparent;
+                                height: 56px;
+                                color: #fff;
+                                display: block;
+                                width: 100%;
+                                padding: 12px;
+                                font-size: 1rem;
+                                font-weight: 400;
+                                line-height: 1.5;
+                                border: 1px solid #fff;
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                appearance: none;
+                                border-radius: .25rem;
+                                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+                                &::placeholder{
+                                    color: #ffffff;
+                                }
+
+                                
+                            }
+
+                            textarea {
+                                background-color: transparent;
+                                height: 120px;
+                                color: #fff;
+                                display: block;
+                                width: 100%;
+                                padding: 12px;
+                                font-size: 1rem;
+                                font-weight: 400;
+                                line-height: 1.5;
+                                border: 1px solid #fff;
+                                resize: none;
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                appearance: none;
+                                border-radius: 0.25rem;
+                                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                                &::placeholder{
+                                    color: #ffffff;
+                                }
+
+                            }
+
+                            .submit-btn {
+                                width: 100%;
+                                background: #fff;
+                                border: 1px solid #fff;
+                                padding: 10px 20px;
+                                font-weight: 600;
+                                border-radius: 0.25rem;
+                                color: #db4c14;
+                                transition: all .25s ease-in-out;
+
+                                &:hover{
+                                    color: #ffffff;
+                                    background: none;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1021,5 +1100,16 @@ body {
                 }
             }
         }
+    }
+}
+
+
+// -----blog-list---//
+.blogs-listing {
+    padding: 100px 0;
+
+    &::after{
+        background: url(../images/bg_img_1.png) no-repeat top right;
+        background-position-y: -57px;
     }
 }

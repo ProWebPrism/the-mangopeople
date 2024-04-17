@@ -318,7 +318,7 @@ body ul {
 }
 .blog-wrapp .blog-row .blog-col1 .blog-col2 {
   width: 100%;
-  padding: 20px;
+  padding: 20px 20px 65px;
   background: white;
   height: 100%;
   transition: all 0.5s cubic-bezier(0.37, -0.22, 1, 1);
@@ -369,6 +369,9 @@ body ul {
   border: 1px solid;
   border-radius: 0;
   transition: all 0.25s ease-in-out;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
 .blog-wrapp .blog-row .blog-col1 .blog-col2 .blog-content .read-more-btn:hover {
   background: none;
@@ -762,7 +765,7 @@ body ul {
 }
 .contact-page .contact-page-content .contact-page-right .contact-page-right-content {
   color: #fff;
-  padding: 40px;
+  padding: 50px;
   background: linear-gradient(to left, #ecc02c 0%, #e3741c 50%, #db4c14 120%);
 }
 .contact-page .contact-page-content .contact-page-right .contact-page-right-content h2 {
@@ -773,6 +776,78 @@ body ul {
 .contact-page .contact-page-content .contact-page-right .contact-page-right-content p {
   padding-bottom: 20px;
   border-bottom: 1px solid #fff;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form {
+  width: 100%;
+  margin: 25px 0 0;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields {
+  width: 100%;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field {
+  width: 100%;
+  margin: 0 0 4.2%;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field input {
+  background-color: transparent;
+  height: 56px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field input::-moz-placeholder {
+  color: #ffffff;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field input::placeholder {
+  color: #ffffff;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field textarea {
+  background-color: transparent;
+  height: 120px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid #fff;
+  resize: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field textarea::-moz-placeholder {
+  color: #ffffff;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field textarea::placeholder {
+  color: #ffffff;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field .submit-btn {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  color: #db4c14;
+  transition: all 0.25s ease-in-out;
+}
+.contact-page .contact-page-content .contact-page-right .contact-page-right-content .contact-form .text-fields .text-field .submit-btn:hover {
+  color: #ffffff;
+  background: none;
 }
 
 .books-page .book-page-banner {
@@ -863,4 +938,12 @@ body ul {
   background: none;
   color: #e3741c;
   border-color: #e3741c;
+}
+
+.blogs-listing {
+  padding: 100px 0;
+}
+.blogs-listing::after {
+  background: url(../images/bg_img_1.png) no-repeat top right;
+  background-position-y: -57px;
 }/*# sourceMappingURL=style.css.map */
