@@ -1165,6 +1165,30 @@ body ol {
   font-weight: 600;
   margin: 0 0 20px;
 }
+.content-wrapp .loan-btns {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 20px;
+}
+.content-wrapp .loan-btns .loan-btn {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 12px 42px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #e3741c;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 0;
+  transition: all 0.25s ease-in-out;
+}
+.content-wrapp .loan-btns .loan-btn:hover {
+  background: none;
+  color: #e3741c;
+}
 
 .about-page .about-page-banner {
   position: relative;
